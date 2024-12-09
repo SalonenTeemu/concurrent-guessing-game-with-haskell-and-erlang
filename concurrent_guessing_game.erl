@@ -6,7 +6,7 @@
 % Can be started using default values with: `concurrent_guessing_game:start().`
 % or using custom values with: `concurrent_guessing_game:start("Player 1", [1, 2, 3, 4], "Player 2", [6, 5, 4]).`
 
-% Start the game with default values is no parameters were given
+% Start the game with default values if no parameters were given
 start() ->
     start("Player 1", [1, 2, 3, 4], "Player 2", [6, 5, 4]).
 
